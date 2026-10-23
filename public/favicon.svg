@@ -1,4 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Yamban Enterprise">
-    <rect width="64" height="64" rx="14" fill="#ff5a1f"/>
-    <path d="M19 17h7.6l5.4 10.4L37.4 17H45L35.6 34.2V47h-7.2V34.2L19 17z" fill="#ffffff"/>
+    <rect width="64" height="64" rx="14" fill="#0072FF"/>
+    <path d="M19 17h7.6l5.4 10.4L37.4 17H45L35.6 34.2V47h-7.2V34.2L19 17z" fill="#000814"/>
 </svg>

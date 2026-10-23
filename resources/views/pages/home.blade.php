@@ -6,12 +6,7 @@
 
         <div class="relative mx-auto grid max-w-7xl items-center gap-12 px-5 pb-16 pt-12 sm:px-8 lg:grid-cols-[1.02fr_0.98fr] lg:gap-16 lg:pb-24 lg:pt-20">
             <div>
-                <p class="label-xs flex items-center gap-3 text-flame">
-                    <span class="h-px w-8 bg-flame"></span>
-                    Yamban Enterprise · Custom gear
-                </p>
-
-                <h1 class="mt-6 text-[2.9rem] font-semibold leading-[0.94] tracking-[-0.045em] text-balance sm:text-6xl lg:text-[4.5rem]">
+                <h1 class="text-[2.9rem] font-semibold leading-[0.94] tracking-[-0.045em] text-balance sm:text-6xl lg:text-[4.5rem]">
                     Your team.<br>
                     Your colors.<br>
                     <span class="text-flame">Made to order.</span>
@@ -32,7 +27,7 @@
                     </a>
                 </div>
 
-                <dl class="mt-10 grid max-w-lg grid-cols-3 gap-4 border-t border-ink/10 pt-6">
+                <dl class="mt-12 grid max-w-lg grid-cols-3 gap-4 pt-2">
                     <div>
                         <dt class="text-sm font-semibold">Free proof</dt>
                         <dd class="mt-1 text-xs leading-relaxed text-ink/45">See your design before we print.</dd>
@@ -82,8 +77,6 @@
     {{-- Category ticker --}}
     <section class="border-y border-ink/10 bg-white/60">
         <div class="mx-auto flex max-w-7xl flex-wrap items-center gap-x-8 gap-y-3 px-5 py-4 sm:px-8">
-            <p class="label-xs text-ink/35">What we make</p>
-
             @foreach ($categories as $category)
                 <a href="{{ route('products', ['category' => $category->slug]) }}" class="group inline-flex items-center gap-3 text-sm font-medium text-ink/70 transition hover:text-ink">
                     {{ $category->name }}
@@ -115,8 +108,7 @@
 
             <div class="flex flex-col justify-between gap-8 rounded-3xl bg-ink p-6 text-bone sm:p-7">
                 <div>
-                    <p class="label-xs text-flame">Not sure where to start?</p>
-                    <h3 class="mt-4 text-2xl font-semibold tracking-[-0.03em] text-balance">
+                    <h3 class="text-2xl font-semibold tracking-[-0.03em] text-balance">
                         Send us a photo or a rough idea. We'll shape it into something you can wear.
                     </h3>
                 </div>
@@ -170,22 +162,13 @@
 
         <div class="mt-12 grid gap-5 md:grid-cols-3">
             @foreach ([
-                ['step' => '01', 'title' => 'Tell us what you need', 'body' => 'Send your sport, quantity, sizes and any design references. We reply with a quote and suggestions.', 'meta' => 'Message or call'],
-                ['step' => '02', 'title' => 'Approve the design', 'body' => 'We prepare a proof with your colors, names, numbers and logos. Nothing goes to print until you say yes.', 'meta' => 'Free revision'],
-                ['step' => '03', 'title' => 'We make and deliver', 'body' => 'Production starts, we keep you updated, then your order ships to your address or team pickup point.', 'meta' => 'Nationwide'],
+                ['title' => 'Tell us what you need', 'body' => 'Send your sport, quantity, sizes and any design references. We reply with a quote and suggestions.'],
+                ['title' => 'Approve the design', 'body' => 'We prepare a proof with your colors, names, numbers and logos. Nothing goes to print until you say yes.'],
+                ['title' => 'We make and deliver', 'body' => 'Production starts, we keep you updated, then your order ships to your address or team pickup point.'],
             ] as $item)
                 <div class="group relative overflow-hidden rounded-3xl border border-ink/10 bg-white p-6 transition hover:border-ink/25 sm:p-7">
-                    <div class="flex items-center justify-between">
-                        <span class="label-xs text-flame">Step {{ $item['step'] }}</span>
-                        <span class="text-[11px] font-medium tracking-[0.14em] text-ink/30 uppercase">{{ $item['meta'] }}</span>
-                    </div>
-
-                    <h3 class="mt-8 text-xl font-semibold tracking-[-0.02em]">{{ $item['title'] }}</h3>
+                    <h3 class="text-xl font-semibold tracking-[-0.02em]">{{ $item['title'] }}</h3>
                     <p class="mt-3 text-sm leading-relaxed text-ink/55">{{ $item['body'] }}</p>
-
-                    <div class="mt-8 h-px w-full bg-ink/10">
-                        <div class="h-px w-0 bg-flame transition-all duration-500 group-hover:w-full"></div>
-                    </div>
                 </div>
             @endforeach
         </div>
@@ -200,7 +183,7 @@
                 </div>
 
                 <div class="absolute -bottom-6 right-4 max-w-[15rem] rounded-2xl bg-ink p-4 text-bone shadow-[0_20px_50px_-25px_rgba(11,12,14,0.8)] sm:right-8">
-                    <p class="label-xs text-flame">In-house finishing</p>
+                    <p class="text-sm font-semibold text-bone">In-house finishing</p>
                     <p class="mt-2 text-sm leading-snug text-bone/75">Printing, embroidery and quality checks under one roof.</p>
                 </div>
             </div>
@@ -248,8 +231,7 @@
 
             <div class="relative grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-end">
                 <div>
-                    <p class="label-xs text-flame">Ready when you are</p>
-                    <h2 class="mt-4 max-w-xl text-3xl font-semibold tracking-[-0.035em] text-balance sm:text-4xl lg:text-5xl">
+                    <h2 class="max-w-xl text-3xl font-semibold tracking-[-0.035em] text-balance sm:text-4xl lg:text-5xl">
                         Let's put your name on something worth wearing.
                     </h2>
                     <p class="mt-4 max-w-lg text-sm leading-relaxed text-bone/55 sm:text-base">

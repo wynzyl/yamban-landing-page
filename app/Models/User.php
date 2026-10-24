@@ -21,6 +21,7 @@ use Laravel\Fortify\TwoFactorAuthenticatable;
  * @property string $email
  * @property Carbon|null $email_verified_at
  * @property string $password
+ * @property bool $is_admin
  * @property string|null $two_factor_secret
  * @property string|null $two_factor_recovery_codes
  * @property Carbon|null $two_factor_confirmed_at
@@ -36,6 +37,11 @@ class User extends Authenticatable implements MustVerifyEmail, PasskeyUser
     use HasFactory, Notifiable, PasskeyAuthenticatable, TwoFactorAuthenticatable;
 
     /**
+     * Login email of the single administrator account.
+     */
+    public const ADMIN_EMAIL = 'admin@yamban.com';
+
+    /**
      * Get the attributes that should be cast.
      *
      * @return array<string, string>
@@ -45,7 +51,16 @@ class User extends Authenticatable implements MustVerifyEmail, PasskeyUser
         return [
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
+            'is_admin' => 'boolean',
         ];
+    }
+
+    /**
+     * Whether the user is the site administrator.
+     */
+    public function isAdmin(): bool
+    {
+        return $this->is_admin;
     }
 
     /**

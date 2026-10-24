@@ -2,11 +2,15 @@
 
 use App\Models\Category;
 use App\Models\Product;
+use Illuminate\Pagination\LengthAwarePaginator;
 use Livewire\Attributes\Computed;
 use Livewire\Attributes\Url;
 use Livewire\Component;
+use Livewire\WithPagination;
 
 new class extends Component {
+    use WithPagination;
+
     #[Url(as: 'category', history: true)]
     public string $category = 'all';
 
@@ -30,12 +34,12 @@ new class extends Component {
      * Products matching the active filters.
      */
     #[Computed]
-    public function products()
+    public function products(): LengthAwarePaginator
     {
         return Product::query()
             ->active()
             ->ordered()
-            ->with('category')
+            ->with(['category', 'images'])
             ->when(
                 $this->category !== 'all' && $this->categories->contains('slug', $this->category),
                 fn ($query) => $query->whereHas('category', fn ($category) => $category->where('slug', $this->category)),
@@ -48,7 +52,24 @@ new class extends Component {
                         ->orWhereHas('category', fn ($category) => $category->where('name', 'like', '%'.$this->search.'%'));
                 }),
             )
-            ->get();
+            ->paginate(100);
+    }
+
+    /**
+     * Update the category filter and return to the first page.
+     */
+    public function setCategory(string $category): void
+    {
+        $this->category = $category;
+        $this->resetPage();
+    }
+
+    /**
+     * Return to the first page when the search changes.
+     */
+    public function updatedSearch(): void
+    {
+        $this->resetPage();
     }
 
     /**
@@ -58,16 +79,17 @@ new class extends Component {
     {
         $this->category = 'all';
         $this->search = '';
+        $this->resetPage();
     }
 };
 ?>
 
-<div>
+<div id="product-catalog">
     <div class="flex flex-col gap-5 border-y border-ink/10 py-5 lg:flex-row lg:items-center lg:justify-between">
         <div class="-mx-1 flex gap-2 overflow-x-auto px-1 pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
             <button
                 type="button"
-                wire:click="$set('category', 'all')"
+                wire:click="setCategory('all')"
                 @class([
                     'shrink-0 rounded-full border px-4 py-2 text-sm font-medium transition',
                     'border-ink bg-ink text-bone' => $category === 'all',
@@ -84,7 +106,7 @@ new class extends Component {
                 <button
                     type="button"
                     wire:key="category-filter-{{ $item->id }}"
-                    wire:click="$set('category', '{{ $item->slug }}')"
+                    wire:click="setCategory('{{ $item->slug }}')"
                     @class([
                         'shrink-0 rounded-full border px-4 py-2 text-sm font-medium transition',
                         'border-ink bg-ink text-bone' => $category === $item->slug,
@@ -117,8 +139,10 @@ new class extends Component {
 
     <div class="mt-6 flex items-center justify-between gap-4">
         <p class="text-sm text-ink/50" aria-live="polite">
-            Showing <span class="font-semibold text-ink">{{ $this->products->count() }}</span>
-            {{ Str::plural('product', $this->products->count()) }}
+            Showing
+            <span class="font-semibold text-ink">{{ $this->products->firstItem() ?? 0 }}–{{ $this->products->lastItem() ?? 0 }}</span>
+            of <span class="font-semibold text-ink">{{ $this->products->total() }}</span>
+            {{ Str::plural('product', $this->products->total()) }}
 
             @if ($category !== 'all')
                 in <span class="font-semibold text-ink">{{ $this->categories->firstWhere('slug', $category)?->name }}</span>
@@ -156,6 +180,12 @@ new class extends Component {
                     </div>
                 @endforeach
             </div>
+
+            @if ($this->products->hasPages())
+                <div class="mt-10">
+                    {{ $this->products->links('pagination.catalog', ['scrollTo' => '#product-catalog']) }}
+                </div>
+            @endif
         @endif
     </div>
 

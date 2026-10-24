@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Carbon;
 
 /**
@@ -44,6 +45,26 @@ class Product extends Model
             'is_featured' => 'boolean',
             'is_active' => 'boolean',
         ];
+    }
+
+    /**
+     * Photos uploaded for the product, in display order.
+     *
+     * @return HasMany<ProductImage, $this>
+     */
+    public function images(): HasMany
+    {
+        return $this->hasMany(ProductImage::class)->ordered();
+    }
+
+    /**
+     * Remove the stored photos when the product is deleted.
+     */
+    protected static function booted(): void
+    {
+        static::deleting(function (Product $product): void {
+            $product->images()->get()->each->deleteFile();
+        });
     }
 
     /**
@@ -87,12 +108,15 @@ class Product extends Model
     }
 
     /**
-     * Resolve the product image, falling back to a placeholder when missing.
+     * Resolve the product photo, falling back to the placeholder when missing.
      */
     public function imageUrl(): string
     {
-        return $this->image_path
-            ? asset($this->image_path)
-            : asset('images/products/placeholder.svg');
+        $photo = $this->relationLoaded('images')
+            ? $this->images->first()
+            : $this->images()->first();
+
+        return $photo?->url()
+            ?? ($this->image_path ? asset($this->image_path) : asset('images/products/placeholder.svg'));
     }
 }

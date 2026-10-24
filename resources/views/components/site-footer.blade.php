@@ -30,6 +30,7 @@
                     <li><a href="{{ route('home') }}" class="text-bone/75 transition hover:text-white">Home</a></li>
                     <li><a href="{{ route('about') }}" class="text-bone/75 transition hover:text-white">About</a></li>
                     <li><a href="{{ route('products') }}" class="text-bone/75 transition hover:text-white">Products</a></li>
+                    <li><a href="{{ route('designs') }}" class="text-bone/75 transition hover:text-white">Designs</a></li>
                     <li><a href="{{ route('contact') }}" class="text-bone/75 transition hover:text-white">Contact</a></li>
                     <li><a href="{{ config('site.facebook') }}" target="_blank" rel="noopener noreferrer" class="text-bone/75 transition hover:text-white">Facebook page</a></li>
                 </ul>

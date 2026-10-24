@@ -71,3 +71,28 @@ it('ignores an unknown category filter', function () {
         ->set('category', 'not-a-category')
         ->assertSee('Everyday Crewneck');
 });
+
+it('paginates products one hundred per page', function () {
+    $category = Category::factory()->create(['name' => 'Hoodies', 'slug' => 'hoodies']);
+
+    Product::factory()->for($category)->count(101)->sequence(
+        fn ($sequence) => [
+            'name' => 'Product '.($sequence->index + 1),
+            'sort_order' => $sequence->index,
+        ],
+    )->create();
+
+    Livewire::test('product-catalog')
+        ->assertSee('Product 1')
+        ->assertSee('Product 100')
+        ->assertDontSee('Product 101')
+        ->assertSee('1–100')
+        ->assertSeeHtml('wire:click="nextPage')
+        ->call('gotoPage', 2)
+        ->assertSee('Product 101')
+        ->assertDontSee('Product 100')
+        ->assertSee('101–101')
+        ->set('search', 'Product')
+        ->assertSet('paginators.page', 1)
+        ->assertSee('Product 1');
+});

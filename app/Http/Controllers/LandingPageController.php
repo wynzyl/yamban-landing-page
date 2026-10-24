@@ -23,7 +23,7 @@ class LandingPageController extends Controller
             ->active()
             ->featured()
             ->ordered()
-            ->with('category')
+            ->with(['category', 'images'])
             ->take(4)
             ->get();
 
@@ -58,13 +58,21 @@ class LandingPageController extends Controller
     }
 
     /**
+     * Show the design library.
+     */
+    public function designs(): View
+    {
+        return view('pages.designs');
+    }
+
+    /**
      * Show the contact page, optionally focused on a product.
      */
     public function contact(): View
     {
         $product = Product::query()
             ->active()
-            ->with('category')
+            ->with(['category', 'images'])
             ->where('slug', request()->query('product'))
             ->first();
 

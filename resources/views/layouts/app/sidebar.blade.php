@@ -16,6 +16,20 @@
                         {{ __('Dashboard') }}
                     </flux:sidebar.item>
                 </flux:sidebar.group>
+
+                @if (auth()->user()->isAdmin())
+                    <flux:sidebar.group :heading="__('Admin')" class="grid">
+                        <flux:sidebar.item icon="tag" :href="route('admin.categories')" :current="request()->routeIs('admin.categories')" wire:navigate>
+                            {{ __('Categories') }}
+                        </flux:sidebar.item>
+                        <flux:sidebar.item icon="shopping-bag" :href="route('admin.products')" :current="request()->routeIs('admin.products')" wire:navigate>
+                            {{ __('Products') }}
+                        </flux:sidebar.item>
+                        <flux:sidebar.item icon="photo" :href="route('admin.designs')" :current="request()->routeIs('admin.designs')" wire:navigate>
+                            {{ __('Designs') }}
+                        </flux:sidebar.item>
+                    </flux:sidebar.group>
+                @endif
             </flux:sidebar.nav>
 
             <flux:spacer />

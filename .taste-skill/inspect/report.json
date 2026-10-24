@@ -1,0 +1,2275 @@
+{
+ "url": "http://yamban-landing-page.test/redesign",
+ "at": "2026-10-23T05:56:03.519Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 10,
+   "filled": [
+    0.6,
+    0.99,
+    0.5,
+    0.6,
+    0.99,
+    0.95,
+    0.93,
+    0.84,
+    0.89,
+    0.9
+   ],
+   "motion": {
+    "elements": 16,
+    "css": 0,
+    "transitions": 4,
+    "scripted": 12,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 8192,
+     "screens": 9.1,
+     "words": 220,
+     "img": 7,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 3,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "hero-main.jpg",
+      "matchday-football-kit.jpg",
+      "hero-tertiary.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "CUSTOM JERSEYS",
+     "words": 2,
+     "chars": 14,
+     "lines": 2,
+     "size": 172.8,
+     "vw": 12,
+     "font": "Red Hat Display",
+     "weight": 900,
+     "tracking": -0.03,
+     "leading": 0.84,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.6,
+     "top": 118,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "CUSTOM JERSEYS",
+     "words": 2,
+     "lines": 2,
+     "size": 172.8,
+     "font": "Red Hat Display"
+    },
+    "headings": [
+     {
+      "text": "CUSTOM JERSEYS",
+      "words": 2,
+      "chars": 14,
+      "lines": 2,
+      "size": 172.8,
+      "vw": 12,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.84,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.6,
+      "top": 118,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "MADE TO ORDER",
+      "words": 3,
+      "chars": 13,
+      "lines": 2,
+      "size": 129.6,
+      "vw": 9,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 1116,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "FROM IDEA TO DELIVERY",
+      "words": 4,
+      "chars": 21,
+      "lines": 2,
+      "size": 57.6,
+      "vw": 4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 2176,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "WHY YAMBAN",
+      "words": 2,
+      "chars": 10,
+      "lines": 2,
+      "size": 57.6,
+      "vw": 4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.28,
+      "top": 3162,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "LOW MINIMUMS",
+      "words": 2,
+      "chars": 12,
+      "lines": 2,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.13,
+      "top": 3772,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "FAST TURNAROUND",
+      "words": 2,
+      "chars": 15,
+      "lines": 2,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.14,
+      "top": 3772,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "SUBLIMATION",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.13,
+      "top": 3773,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "EMBROIDERY",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.13,
+      "top": 3773,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "READY TO GET STARTED?",
+      "words": 4,
+      "chars": 21,
+      "lines": 2,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.21,
+      "top": 6963,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "YAMBAN ENTERPRISE",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 96,
+      "vw": 6.7,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 7604,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Red Hat Text",
+       "share": 0.9,
+       "mono": false
+      },
+      {
+       "family": "Red Hat Display",
+       "share": 0.1,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      15,
+      16,
+      19,
+      22,
+      26,
+      28,
+      40,
+      58,
+      96,
+      130,
+      173
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Red Hat Text",
+      "size": 15,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 10.9
+     },
+     "measureChars": 46,
+     "max": {
+      "size": 172.8,
+      "vw": 12,
+      "font": "Red Hat Display",
+      "text": "CUSTOM"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.1,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ff7a1f",
+     "bodyBgHsl": {
+      "h": 24,
+      "s": 1,
+      "l": 0.56
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ff7a1f",
+       "top": 0,
+       "hsl": {
+        "h": 24,
+        "s": 1,
+        "l": 0.56
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 900,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#050f16",
+       "top": 3114,
+       "hsl": {
+        "h": 205,
+        "s": 0.63,
+        "l": 0.05
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#050f16",
+       "share": 0.63
+      },
+      {
+       "color": "#ff7a1f",
+       "share": 0.31
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.06
+      }
+     ],
+     "button": {
+      "bg": "#ff7a1f",
+      "hsl": {
+       "h": 24,
+       "s": 1,
+       "l": 0.56
+      },
+      "fg": "#050f16"
+     },
+     "lowContrast": [
+      {
+       "text": "Standard 2-3 weeks. Rush orders availabl",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 15,
+       "fg": "#ffffff",
+       "bg": "#cc5500"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 0,
+     "height": 65,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Start your order"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 5,
+     "boxRadius": 20,
+     "squareMedia": 2,
+     "roundedMedia": 1,
+     "mediaRadius": 50,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 3745
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.23
+     }
+    ],
+    "nav": {
+     "links": 3,
+     "fixed": false,
+     "height": 39,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "red hat display",
+     "red hat text"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 8192,
+    "margins": {
+     "left": 32,
+     "right": 32
+    },
+    "sections": [
+     {
+      "sel": "section.hero-seam.relative",
+      "tag": "section",
+      "top": 0,
+      "height": 900,
+      "words": 24,
+      "media": 1,
+      "middle": 18,
+      "heading": {
+       "text": "CUSTOM",
+       "size": 173,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.showcase-section",
+      "tag": "section",
+      "top": 900,
+      "height": 1060,
+      "words": 43,
+      "media": 1,
+      "middle": 178,
+      "heading": {
+       "text": "MADE",
+       "size": 130,
+       "tag": "div"
+      },
+      "left": 32,
+      "right": 13,
+      "textLeft": 32,
+      "textRight": 92,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.process-section",
+      "tag": "section",
+      "top": 1960,
+      "height": 1153,
+      "words": 40,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "FROM IDEA",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 279,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.features-wrapper",
+      "tag": "section",
+      "top": 3114,
+      "height": 3600,
+      "words": 13,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "WHY",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 48,
+      "right": 1025,
+      "textLeft": 48,
+      "textRight": 1025,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": true
+     },
+     {
+      "sel": "section.cta-split",
+      "tag": "section",
+      "top": 6714,
+      "height": 810,
+      "words": 24,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "READY TO GET STARTED?",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 1104,
+      "right": 42,
+      "textLeft": 1104,
+      "textRight": 42,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 7524,
+      "height": 668,
+      "words": 33,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Yamban Enterprise",
+       "size": 96,
+       "tag": "div"
+      },
+      "left": 32,
+      "right": 245,
+      "textLeft": 32,
+      "textRight": 245,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 1744,
+      "height": 420
+     }
+    ],
+    "h1s": [
+     {
+      "text": "CUSTOM JERSEYS",
+      "size": 173,
+      "top": 118,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 8
+     },
+     {
+      "x": 48,
+      "n": 3
+     },
+     {
+      "x": 858,
+      "n": 2
+     },
+     {
+      "x": 1104,
+      "n": 2
+     },
+     {
+      "x": 507,
+      "n": 1
+     },
+     {
+      "x": 981,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 17,
+    "bodySize": 26,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.15,
+    "voidBox": {
+     "x": 0,
+     "y": 480,
+     "w": 660,
+     "h": 300
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.65,
+    0.99,
+    0.29,
+    0.62,
+    0.99,
+    0.99
+   ],
+   "motion": {
+    "elements": 16,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 16,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 5430,
+     "screens": 5.3,
+     "words": 217,
+     "img": 7,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "hero-main.jpg",
+      "matchday-football-kit.jpg",
+      "600",
+      "about-rack.jpg",
+      "600",
+      "hero-tertiary.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "CUSTOM JERSEYS",
+     "words": 2,
+     "chars": 14,
+     "lines": 2,
+     "size": 145.9,
+     "vw": 19,
+     "font": "Red Hat Display",
+     "weight": 900,
+     "tracking": -0.03,
+     "leading": 0.86,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.96,
+     "top": 96,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "CUSTOM JERSEYS",
+     "words": 2,
+     "lines": 2,
+     "size": 145.9,
+     "font": "Red Hat Display"
+    },
+    "headings": [
+     {
+      "text": "CUSTOM JERSEYS",
+      "words": 2,
+      "chars": 14,
+      "lines": 2,
+      "size": 145.9,
+      "vw": 19,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.86,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 96,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "MADE TO ORDER",
+      "words": 3,
+      "chars": 13,
+      "lines": 2,
+      "size": 115.2,
+      "vw": 15,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1144,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "FROM IDEA TO DELIVERY",
+      "words": 4,
+      "chars": 21,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2179,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "WHY YAMBAN",
+      "words": 2,
+      "chars": 10,
+      "lines": 2,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 3037,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SUBLIMATION",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.25,
+      "top": 3245,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "EMBROIDERY",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.24,
+      "top": 3245,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "LOW MINIMUMS",
+      "words": 2,
+      "chars": 12,
+      "lines": 2,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.26,
+      "top": 3245,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "FAST TURNAROUND",
+      "words": 2,
+      "chars": 15,
+      "lines": 2,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.26,
+      "top": 3245,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "READY TO GET STARTED?",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 3699,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "YAMBAN ENTERPRISE",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4596,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Red Hat Text",
+       "share": 0.9,
+       "mono": false
+      },
+      {
+       "family": "Red Hat Display",
+       "share": 0.1,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      15,
+      16,
+      18,
+      22,
+      23,
+      28,
+      36,
+      40,
+      48,
+      115,
+      146
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Red Hat Text",
+      "size": 17.9,
+      "leading": 1.4,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.4
+     },
+     "measureChars": 79,
+     "max": {
+      "size": 145.9,
+      "vw": 19,
+      "font": "Red Hat Display",
+      "text": "CUSTOM"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.1,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ff7a1f",
+     "bodyBgHsl": {
+      "h": 24,
+      "s": 1,
+      "l": 0.56
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ff7a1f",
+       "top": 0,
+       "hsl": {
+        "h": 24,
+        "s": 1,
+        "l": 0.56
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 1024,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#050f16",
+       "top": 2989,
+       "hsl": {
+        "h": 205,
+        "s": 0.63,
+        "l": 0.05
+       }
+      },
+      {
+       "color": "#ffb366",
+       "top": 3217,
+       "hsl": {
+        "h": 30,
+        "s": 1,
+        "l": 0.7
+       }
+      },
+      {
+       "color": "#ff914d",
+       "top": 3217,
+       "hsl": {
+        "h": 23,
+        "s": 1,
+        "l": 0.65
+       }
+      },
+      {
+       "color": "#cc5500",
+       "top": 3217,
+       "hsl": {
+        "h": 25,
+        "s": 1,
+        "l": 0.4
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#050f16",
+       "share": 0.63
+      },
+      {
+       "color": "#ff7a1f",
+       "share": 0.31
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.06
+      }
+     ],
+     "button": {
+      "bg": "#ff7a1f",
+      "hsl": {
+       "h": 24,
+       "s": 1,
+       "l": 0.56
+      },
+      "fg": "#050f16"
+     },
+     "lowContrast": [
+      {
+       "text": "Standard 2-3 weeks. Rush orders availabl",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 15,
+       "fg": "#ffffff",
+       "bg": "#cc5500"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 0,
+     "height": 63,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Start your order"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 5,
+     "boxRadius": 20,
+     "squareMedia": 2,
+     "roundedMedia": 1,
+     "mediaRadius": 50,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 3217
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.38
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 34,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "red hat display",
+     "red hat text"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 5430,
+    "margins": {
+     "left": 16,
+     "right": 40
+    },
+    "sections": [
+     {
+      "sel": "section.hero-seam.relative",
+      "tag": "section",
+      "top": 0,
+      "height": 1024,
+      "words": 21,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "CUSTOM",
+       "size": 146,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 0,
+      "textLeft": 16,
+      "textRight": 100,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.showcase-section",
+      "tag": "section",
+      "top": 1024,
+      "height": 1035,
+      "words": 43,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "MADE",
+       "size": 115,
+       "tag": "div"
+      },
+      "left": 31,
+      "right": 0,
+      "textLeft": 31,
+      "textRight": 40,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.process-section",
+      "tag": "section",
+      "top": 2059,
+      "height": 930,
+      "words": 40,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "FROM IDEA",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 50,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.features-wrapper",
+      "tag": "section",
+      "top": 2989,
+      "height": 678,
+      "words": 66,
+      "media": 4,
+      "middle": 628,
+      "heading": {
+       "text": "WHY",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": -819,
+      "textRight": -491,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.cta-split",
+      "tag": "section",
+      "top": 3667,
+      "height": 849,
+      "words": 24,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "READY TO GET STARTED?",
+       "size": 28,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 216,
+      "textLeft": 16,
+      "textRight": 216,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 4516,
+      "height": 915,
+      "words": 33,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Yamban Enterprise",
+       "size": 48,
+       "tag": "div"
+      },
+      "left": 31,
+      "right": 231,
+      "textLeft": 31,
+      "textRight": 231,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "CUSTOM JERSEYS",
+      "size": 146,
+      "top": 96,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 31,
+      "n": 10
+     },
+     {
+      "x": 16,
+      "n": 7
+     },
+     {
+      "x": 420,
+      "n": 2
+     },
+     {
+      "x": 1040,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 21,
+    "bodySize": 18,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.43,
+    0.87,
+    0.34,
+    0.76,
+    0.96,
+    0.97
+   ],
+   "motion": {
+    "elements": 16,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 16,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 4874,
+     "screens": 5.8,
+     "words": 217,
+     "img": 7,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 3,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "hero-main.jpg",
+      "matchday-football-kit.jpg",
+      "hero-tertiary.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "CUSTOM JERSEYS",
+     "words": 2,
+     "chars": 14,
+     "lines": 2,
+     "size": 74.1,
+     "vw": 19,
+     "font": "Red Hat Display",
+     "weight": 900,
+     "tracking": -0.03,
+     "leading": 0.86,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 79,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "CUSTOM JERSEYS",
+     "words": 2,
+     "lines": 2,
+     "size": 74.1,
+     "font": "Red Hat Display"
+    },
+    "headings": [
+     {
+      "text": "CUSTOM JERSEYS",
+      "words": 2,
+      "chars": 14,
+      "lines": 2,
+      "size": 74.1,
+      "vw": 19,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.86,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 79,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "MADE TO ORDER",
+      "words": 3,
+      "chars": 13,
+      "lines": 2,
+      "size": 58.5,
+      "vw": 15,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 964,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "FROM IDEA TO DELIVERY",
+      "words": 4,
+      "chars": 21,
+      "lines": 2,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1718,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "WHY YAMBAN",
+      "words": 2,
+      "chars": 10,
+      "lines": 2,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2509,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SUBLIMATION",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.49,
+      "top": 2716,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "EMBROIDERY",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.48,
+      "top": 2716,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "LOW MINIMUMS",
+      "words": 2,
+      "chars": 12,
+      "lines": 2,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 2716,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "FAST TURNAROUND",
+      "words": 2,
+      "chars": 15,
+      "lines": 2,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.51,
+      "top": 2716,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "READY TO GET STARTED?",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3168,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "From ₱350 per jersey",
+      "words": 4,
+      "chars": 20,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Red Hat Text",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3290,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "YAMBAN ENTERPRISE",
+      "words": 2,
+      "chars": 17,
+      "lines": 2,
+      "size": 48,
+      "vw": 12.3,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3989,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 11,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Red Hat Text",
+       "share": 0.9,
+       "mono": false
+      },
+      {
+       "family": "Red Hat Display",
+       "share": 0.1,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      15,
+      16,
+      17,
+      20,
+      22,
+      28,
+      36,
+      40,
+      48,
+      59,
+      74
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Red Hat Text",
+      "size": 17,
+      "leading": 1.4,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.4
+     },
+     "measureChars": 42,
+     "max": {
+      "size": 74.1,
+      "vw": 19,
+      "font": "Red Hat Display",
+      "text": "CUSTOM"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.1,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ff7a1f",
+     "bodyBgHsl": {
+      "h": 24,
+      "s": 1,
+      "l": 0.56
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ff7a1f",
+       "top": 0,
+       "hsl": {
+        "h": 24,
+        "s": 1,
+        "l": 0.56
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 844,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#050f16",
+       "top": 2461,
+       "hsl": {
+        "h": 205,
+        "s": 0.63,
+        "l": 0.05
+       }
+      },
+      {
+       "color": "#ffb366",
+       "top": 2688,
+       "hsl": {
+        "h": 30,
+        "s": 1,
+        "l": 0.7
+       }
+      },
+      {
+       "color": "#ff914d",
+       "top": 2688,
+       "hsl": {
+        "h": 23,
+        "s": 1,
+        "l": 0.65
+       }
+      },
+      {
+       "color": "#cc5500",
+       "top": 2688,
+       "hsl": {
+        "h": 25,
+        "s": 1,
+        "l": 0.4
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#050f16",
+       "share": 0.63
+      },
+      {
+       "color": "#ff7a1f",
+       "share": 0.31
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.06
+      }
+     ],
+     "button": {
+      "bg": "#ff7a1f",
+      "hsl": {
+       "h": 24,
+       "s": 1,
+       "l": 0.56
+      },
+      "fg": "#050f16"
+     },
+     "lowContrast": [
+      {
+       "text": "Standard 2-3 weeks. Rush orders availabl",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 15,
+       "fg": "#ffffff",
+       "bg": "#cc5500"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 0,
+     "height": 62,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Start your order"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 5,
+     "boxRadius": 20,
+     "squareMedia": 2,
+     "roundedMedia": 1,
+     "mediaRadius": 50,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.23
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 30,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "red hat display",
+     "red hat text"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 4874,
+    "margins": {
+     "left": 16,
+     "right": 24
+    },
+    "sections": [
+     {
+      "sel": "section.hero-seam.relative",
+      "tag": "section",
+      "top": 0,
+      "height": 844,
+      "words": 21,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "CUSTOM",
+       "size": 74,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 0,
+      "textLeft": 16,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.showcase-section",
+      "tag": "section",
+      "top": 844,
+      "height": 754,
+      "words": 43,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "MADE",
+       "size": 59,
+       "tag": "div"
+      },
+      "left": 16,
+      "right": 0,
+      "textLeft": 16,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.process-section",
+      "tag": "section",
+      "top": 1598,
+      "height": 864,
+      "words": 40,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "FROM IDEA",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.features-wrapper",
+      "tag": "section",
+      "top": 2461,
+      "height": 675,
+      "words": 66,
+      "media": 0,
+      "middle": 264,
+      "heading": {
+       "text": "WHY",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": -455,
+      "textRight": -371,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.cta-split",
+      "tag": "section",
+      "top": 3136,
+      "height": 772,
+      "words": 24,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "READY TO GET STARTED?",
+       "size": 28,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 31,
+      "textLeft": 16,
+      "textRight": 31,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 3909,
+      "height": 965,
+      "words": 33,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Yamban Enterprise",
+       "size": 48,
+       "tag": "div"
+      },
+      "left": 16,
+      "right": 43,
+      "textLeft": 16,
+      "textRight": 43,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "CUSTOM JERSEYS",
+      "size": 74,
+      "top": 79,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 17
+     },
+     {
+      "x": 250,
+      "n": 2
+     },
+     {
+      "x": 561,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 21,
+    "bodySize": 17,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Low-contrast text: \"Standard 2-3 weeks. Rush orders availabl\" 4.3:1 needs 4.5:1",
+   "fix": "Darken or lighten the text colour.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "12 different font sizes (14, 15, 16, 19, 22, 26, 28, 40, 58, 96, 130, 173).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "body-size",
+   "width": 1440,
+   "message": "Body text is 15px.",
+   "fix": "Body copy 16–20px."
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 3 picture(s) on the page (3 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "lopsided",
+   "width": 1440,
+   "message": "A section keeps its content on one side and leaves 1104px of the width empty: \"READY TO GET STARTED?\".",
+   "fix": "Fill the other side with what the section has (its picture, a second column, the figure), or defend the void in one sentence."
+  },
+  {
+   "level": "WARN",
+   "id": "blank-gap",
+   "width": 1440,
+   "message": "A 420px stretch at 1744px holds nothing.",
+   "fix": "Check that it is a deliberate rest (once per page at most); otherwise close it to the normal section gap."
+  },
+  {
+   "level": "FAIL",
+   "id": "covered-text",
+   "width": 1440,
+   "message": "Large text lies under another element at some scroll position: \"MADE\" (screen 2, 50% hidden); \"EMBROIDERY\" (screen 5, 100% hidden); \"LOW MINIMUMS\" (screen 5, 100% hidden)",
+   "fix": "Nothing may sit on top of a headline or statement. Move the picture, shorten the pinned run, or raise the text above it (z-index) and give it a ground.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "long-pin",
+   "width": 1440,
+   "message": "The same large text stays on screen for 4 screens in a row: \"WHY YAMBAN\"",
+   "fix": "A pinned element earns two screens, and something must change at each. Shorten the run or give every screen its own content."
+  },
+  {
+   "level": "WARN",
+   "id": "side-scroll",
+   "width": 768,
+   "message": "1 row(s) scroll sideways with content past their edge.",
+   "fix": "Jurors and most visitors read a row cut at the edge as clipped, not as scrollable. Wrap it onto more lines, or end it inside the grid.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 768,
+   "message": "The margins differ: 16px on the left, 40px on the right, at 768px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+  },
+  {
+   "level": "WARN",
+   "id": "empty-middle",
+   "width": 768,
+   "message": "1 section(s) have content at both edges and 628px of nothing between: \"WHY\"",
+   "fix": "Bring the two parts together on the grid, or put the picture or figure of the section in the middle. An empty middle third reads as a hole, the same as an empty half."
+  },
+  {
+   "level": "WARN",
+   "id": "name-only-title",
+   "width": 768,
+   "message": "The h1 is a bare name (\"CUSTOM JERSEYS\") and nothing else on the first screen says what this is.",
+   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points.",
+   "alsoAt": [
+    390
+   ]
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\yamba\\Herd\\yamban-landing-page\\.taste-skill\\inspect\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\yamba\\Herd\\yamban-landing-page\\.taste-skill\\inspect\\desktop-page-01.jpg",
+    "C:\\Users\\yamba\\Herd\\yamban-landing-page\\.taste-skill\\inspect\\desktop-page-02.jpg",
+    "C:\\Users\\yamba\\Herd\\yamban-landing-page\\.taste-skill\\inspect\\desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\yamba\\Herd\\yamban-landing-page\\.taste-skill\\inspect\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\yamba\\Herd\\yamban-landing-page\\.taste-skill\\inspect\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\yamba\\Herd\\yamban-landing-page\\.taste-skill\\inspect\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\yamba\\Herd\\yamban-landing-page\\.taste-skill\\inspect\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

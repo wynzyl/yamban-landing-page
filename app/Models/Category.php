@@ -52,6 +52,16 @@ class Category extends Model
     }
 
     /**
+     * Designs that belong to the category.
+     *
+     * @return HasMany<Design, $this>
+     */
+    public function designs(): HasMany
+    {
+        return $this->hasMany(Design::class);
+    }
+
+    /**
      * Limit the query to visible categories.
      *
      * @param  Builder<Category>  $query

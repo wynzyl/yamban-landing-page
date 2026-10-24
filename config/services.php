@@ -35,4 +35,8 @@ return [
         ],
     ],
 
+    'google' => [
+        'drive_api_key' => env('GOOGLE_DRIVE_API_KEY'),
+    ],
+
 ];
